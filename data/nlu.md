@@ -48,3 +48,49 @@
 - not very good
 - extremely sad
 - so sad
+
+## intent:ask_indentity
+- who are you
+- what is your name
+- how should i address you
+- may i know your name
+- are you a bot
+
+## intent:ask_shop_open
+- does the shop open on [monday] (weekday)
+- does the shop open on [wednesday](weekday)
+- does the shop open on [friday](weekday)
+
+## intent:inform_country_of_origin
+- i am from [malaysia](countries)
+- i am from [vietnam](countries)
+- i came from [thailand](countries)
+
+## intent:ask_eaten
+- what did you have for [breakfast](meal)
+- what did you have for [break fast](meal:breakfast)
+- what did you have for [breakfat](meal:breakfast)
+
+## synonym:breakfast
+- brekfast
+- brokefast
+
+## intent:inform_zipcode
+- my zipcode is [12345](zipcode)
+- my zipcode is [33456](zipcode)
+- my zipcode is [94056](zipcode)
+
+## regex:zipcode
+- [0-9]{5}
+
+## lookup:weekday
+- monday
+- tuesday
+- wednesday
+- thursday
+- friday
+
+## lookup: countries
+./data/countries.txt
+
+
